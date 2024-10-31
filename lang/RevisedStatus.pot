@@ -1,0 +1,149 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Revised Status\n"
+"POT-Creation-Date: 2015-09-20 11:07+0200\n"
+"PO-Revision-Date: 2015-07-18 16:34+0200\n"
+"Last-Translator: Ivan <ivan@yivoff.com>\n"
+"Language-Team: Ivan <ivan@yivoff.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/RevisedStatus/Controller/Options.php:83
+msgid "Publish Status Revisions Options"
+msgstr ""
+
+#: src/RevisedStatus/Controller/Options.php:84
+msgid "Published Status Revisions"
+msgstr ""
+
+#: src/RevisedStatus/Controller/Options.php:104
+msgid ""
+"Enable or disable publishing status revisions for your activated post types"
+msgstr ""
+
+#: src/RevisedStatus/Controller/Options.php:121
+msgid "Track all registered (versioned) posttypes"
+msgstr ""
+
+#: src/RevisedStatus/Controller/Options.php:135
+msgid "Track"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:27
+msgid "Publishing status tracking options"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:34
+msgid "Save"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:40
+msgid "Filter Hooks available"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:42
+msgid "Options set via hooks supersede options chosen in this page"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:46
+msgid ""
+"Sets up tracking for all available versioned post-types. Return <em>true</"
+"em> to activate."
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:54
+msgid ""
+"Return an associative array in this filter to activate tracking to your "
+"chosen post types. e.g:"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:65
+msgid "Redundant with the previous filter"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:68
+msgid ""
+"Return an associative array in this filter to disable tracking for your "
+"chosen post types. e.g:"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:78
+msgid "Trumps all other options or filters"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:110
+msgid ""
+"Attention: Settings for this plugin have been modified by use of actions "
+"hooks, done from within a theme or plugin:"
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:143
+msgid "Warning, this setting has been activated by a plugin hook."
+msgstr ""
+
+#: src/RevisedStatus/View/Options.php:146
+msgid ""
+"Warning, tracking of this post type has been disabled by a plugin hook."
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:43
+msgid "Revisions (with publication status history)"
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:92
+msgid "JavaScript must be enabled to use this feature."
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:119
+msgctxt "revision date format"
+msgid "F j, Y @ H:i:s"
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:130
+#, php-format
+msgctxt "post revision title"
+msgid "%1$s %2$s, %3$s ago (%4$s)"
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:137
+#, php-format
+msgid "%1$s [Autosave]"
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:138
+#, php-format
+msgid "%1$s [Current Revision]"
+msgstr ""
+
+#: src/RevisedStatus/View/RevisionMetabox.php:151
+msgid "Not tracked"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Revised Publishing Status"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.yivoff.com/plugins/revised-status"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Saves the publihed status (publish, draft, pending) alongside revision "
+"history."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "yivi"
+msgstr ""
